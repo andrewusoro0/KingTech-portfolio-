@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    top: 0;
+    z-index: 10;
+    background: #f4f4f2;
+    height: 850px;
+}
+h1{
+    font-family: 'Modak', cursive;
+}
+.navbar{
+    padding: 3% !important;
+    margin-left: 40px;
+}
+.navbar-brand{
+    height: 70px;
+    padding-left: 100px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+
+}
+.navbar-nav,li{
+    padding: 0 30px;
+    margin-right: 30px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    font-weight: 600;
+}
+.navbar-toggler{
+    outline: none;
+}
+.fa-bars{
+    /* color: #fff; */
+    font-size: 40px !important;
+}
+.arrow_img{
+   margin-left: 82%;
+   width: 100px;
+   /* transform: translateY(-70%); */
+}
+/* ==========================================================top container==================== */
+.card{
+   margin-left: 90px;
+}
+.text_head{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.fa{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.hire_me{
+    font-size: 25px;
+    border-radius: none;
+    margin-left: 47%;
+    background: #214252;
+    color: #fff;
+    padding: 2%;
+}
+.hire_m{
+    background: #214252;
+    margin-left: 42%;
+    color: #fff;
+    padding: 2%;
+}
+.learn_more{
+    margin-left: 70%;
+    transform: rotate(90deg);
+    margin-top: 20px;
+}
+.title_body{
+    padding: 8%;
+    
+    text-align: center;
+}
+.fa-7x{
+    font-size: 20px;
+}  
+/* ======================================================================introduction service=============== */
+.body_img{
+    width: 30%;
+    margin-left: 15px;
+    padding: 3%;
+    
+    grid-template-columns: repeat(4,1fr);
+}
+.text_item{
+    margin-left: 15%;
+    font-family: 'Aclonica', sans-serif;
+}
+
+/* ===================================descripton========================================= */
+.btn{
+    background: #214252;
+    color: #fff;
+}
+.text_upper{
+  margin-top: 30px;
+  margin-left: 15px; 
+}
+.text_down{
+   margin-right:5px;
+} 
+.bd-grid{
+    display: flex;
+}
+.img_item{
+    margin-left: 260px;
+    padding-bottom: 20px;
+}
+.text-down{
+    margin-left: 200px;
+}
+.item-box{
+    font-size: 50px;
+    margin-left: 34%;
+    border: 30px;
+    background: darkblue;
+}
+#description{
+    background: #f4f4f2;
+    height: 850px;
+}
+.text_h1{
+    padding: 3%;
+}
+.Portfolio{
+    padding: 2%;
+    margin-left: 55%;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+/* ===================================================== */
+#start_up{
+    background:#214252 ;
+    color: #fff;
+    padding: 5%;
+    margin-top: 20px;
+}
+.create{
+    text-align: center;
+}
+.demo{
+    margin-top: 10px;
+    padding: 1%;
+    margin-left: 12cm;
+    background: #f4f4f2;
+    color: black;
+}
+/* ======================================================== */
+#feedbacks{
+    background:#f4f4f2;
+    padding: 3%;
+    height: 500px;
+}
+.feedback{
+    text-align: center;
+    padding: 3%;
+}
+.img_feedback{
+    margin-left: 37%;
+    width: 100%;
+    height: 100%;
+}
+
+.feedback_text{
+    transform: translateY(-200%);
+    margin-left: 100px;
+}
+.card-img-top{
+    width: 60%;
+}
+.blog_post{
+    text-align: center;
+    padding: 3%;
+}
+.img_blog{
+    margin-left: 10%;
+    
+}
+.latest_blog{
+    display: flex;
+}
+.text__blog{
+    display: flex;
+    margin-left: 120px;
+    padding: 2%;
+}
+.txt_blog{
+    margin-left: 24%;
+}
+.Vist__blog{
+    margin-left: 45%;
+}
+/* ==================== */
+.Shortly{
+    text-align: center;
+    padding: 2%;
+}
+.Help{
+ /* text-align: center; */
+   margin-left: 33%;
+}
+#Shortly{
+    background:#214252 ;
+    color: #fff;
+    margin-top: 20px;
+}
+.input{
+    width: 50%;
+    padding: 2%;
+}
+.input-textarea {
+    min-height: 120px;
+    width: 50%;
+    padding: 0.625rem 0rem;
+    resize: vertical;
+    margin-bottom: 1.5rem;
+}
+.memo{
+    margin-bottom: 20px;
+}
+/* ======================== */
+.footersection{
+    background: #f4f4f2;
+    padding: 10%;
+    margin:0;
+    height: 400px;
+    
+}
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+/* ======================= */
+.end__tag{
+    text-align: center;
+    padding: 4%;
+}
